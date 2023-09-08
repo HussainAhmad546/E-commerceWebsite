@@ -1,0 +1,95 @@
+const products = [
+  {
+    // _id: '1',
+    name: 'Lenovo ThinkPad X240',
+    image: '/images/laptop.jpeg',
+    description:
+      'The Lenovo ThinkPad X240 is a powerful business laptop sporting a Core i5 Haswell CPU, a speedy solid-state drive, and a 12.5-inch IPS touch-screen display. You will pay top dollar for this well-built ultrabook, but it will give you over 15 hours of battery life in return.',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 89.99,
+    countInStock: 3,
+    rating: 4.5,
+    numReviews: 4,
+  },
+  {
+    // _id: '2',
+    name: 'Oppo A53',
+    image: '/images/oppoA532.jpeg',
+    description:
+      '4 GB + 64 GB Snapdragon 460 6.50 Inch 5000 mAh 16 MP Camera Sim Free Android 10 Dual Sim Smartphone - Black (Renewed) OPPO A54 5G - 4GB RAM and 64GB +Extendable Storage SIM Free Smartphone (6.5 Screen, 5000 mAh Battery, 48MP Quad Camera, 90Hz Refresh Rate) - Fluid Black.',
+    brand: 'Oppo',
+    category: 'Electronics',
+    price: 599.99,
+    countInStock: 10,
+    rating: 4.0,
+    numReviews: 4,
+  },
+  {
+    // _id: '3',
+    name: 'Gaming RGB Mouse',
+    image: '/images/rgbmouse123.jpg',
+    description:
+      'A mouse designed for gamers. Gaming mice have adjustable sensitivity, which is configurable as the number of dots per inch (DPI). The greater the DPI, the farther the cursor moves on screen with the same amount of mouse movement.',
+    brand: 'Cannon',
+    category: 'Electronics',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 3,
+  },
+  {
+    // _id: '6',
+    name: 'Dell Precision T3500',
+    image: '/images/com.jpg',
+    description:
+      'The Dell Precision T3500 workstation is a productivity machine with a choice of lightning-fast 64-bit dual-, quad- or 6-core Intel Xeon processors, impressive graphics and exceptional memory capacity that work together in a flexible and innovative compact chassis to deliver performance, scalability and flexibility',
+    brand: 'Dell',
+    category: 'Electronics',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 4,
+  },
+  {
+    // _id: '4',
+    name: 'Sony Playstation 4 Pro White Version',
+    image: '/images/playstation.jpg',
+    description:
+      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 399.99,
+    countInStock: 10,
+    rating: 5,
+    numReviews: 3,
+  },
+  {
+    // _id: '5',
+    name: 'Logitech G-Series Gaming Mouse',
+    image: '/images/mouse22.jpg',
+    description:
+      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+    brand: 'Logitech',
+    category: 'Electronics',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 2,
+  },
+  {
+    // _id: '6',
+    name: 'Amazon Echo Dot 3rd Generation-2',
+    image: '/images/alexa.jpg',
+    description:
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+    brand: 'Amazon',
+    category: 'Electronics',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 4,
+  },
+]
+export default products;
+
